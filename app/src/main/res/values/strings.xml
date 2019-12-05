@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">chargingStationFinder</string>
+    <string name="TextView">Please Enter a latitude and longitude value</string>
+    <string name="EditText">latitude</string>
+    <string name="EditText2">longitude</string>
+    <string name="Button">scan</string>
+    <string name="Item">info</string>
+    <string name="TextView2">Created By: Zachary Holmes</string>
+    <string name="TextView3">Created for: Mobile graphics</string>
+    <string name="TextView4">how it works is type your longitude and lattitude and press scan wait for info</string>
+</resources>

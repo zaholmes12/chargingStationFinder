@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created By: Zachary Holmes"
+        android:textSize="20dp"
+        android:id="@+id/cb"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb"
+        android:text="Created For: Mobile graphics"
+        android:textSize="20dp"
+        android:id="@+id/cf"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cf"
+        android:text="how it works is type your longitude and lattitude and press scan wait for info"
+        android:textSize="20dp"/>
+</RelativeLayout>

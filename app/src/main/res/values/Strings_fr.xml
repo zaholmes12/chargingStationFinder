@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">rechargeStationFinder</string>
+    <string name="TextView">Veuillez entrer une valeur de latitude et de longitude</string>
+    <string name="EditText">latitude</string>
+    <string name="EditText2">longitude</string>
+    <string name="Button">balayage</string>
+    <string name="Item">info</string>
+    <string name="TextView2">Créé par: Zachary Holmes</string>
+    <string name="TextView3">Créé pour: Graphiques mobiles</string>
+    <string name="TextView4">Comment ça marche? Tapez votre longitude et latitude et appuyez sur scan wait for info</string>
+</resources>

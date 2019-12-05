@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:id="@+id/tbar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter a latitude and longitude value"
+        android:textSize="20dp"
+        android:id="@+id/text1"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="latitude"
+        android:textSize="20dp"
+        android:id="@+id/lat"
+        android:layout_below="@+id/text1"
+        android:importantForAutofill="no" />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="longitude"
+        android:textSize="20dp"
+        android:id="@+id/lon"
+        android:layout_below="@+id/text1"
+        android:layout_toRightOf="@+id/lat"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="20dp"
+        android:layout_below="@id/lat"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scan"/>
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/ps"
+        android:layout_below="@id/scan"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ps"
+        android:id="@+id/lv"/>
+</RelativeLayout>
